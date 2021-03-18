@@ -1,8 +1,19 @@
 {
+    "name": "mkoveni/dating-app",
+    "authors": [
+        {
+            "email": "simon@rivalani.dev",
+            "name": "Rivalani Simon Hlengani",
+            "homepage": "https://rivalani.dev"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "DatingApp\\Backend\\": "src",
-            "DatingApp\\Frontend\\": "app"
+            "DatingApp\\Frontend\\": "app/src"
         }
+    },
+    "require": {
+        "slim/slim": "4.*"
     }
 }
