@@ -1,0 +1,8 @@
+{
+    "autoload": {
+        "psr-4": {
+            "DatingApp\\Backend\\": "src",
+            "DatingApp\\Frontend\\": "app"
+        }
+    }
+}
